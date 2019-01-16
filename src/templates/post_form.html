@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+<head>
+	<title> {% block head_title %} Aurum | Create Post {% endblock head_title %} 
+	</title>
+</head>
+
+{% block content %}
+
+<div class="col-sm-8 col-sm-offset-2">    
+
+<body style="background-color:#EAE7DE;"> 
+
+	<h2><b>Ask Something...</b></h2><br><hr>
+	<form method ='POST' action = '' enctype='multipart/form-data' >
+		
+		{{ form | crispy}} {% csrf_token %}<br>
+      <input type="submit" class="btn btn-default" value="Ask!" />
+    </form>
+</body>
+</div>
+<div style="position: absolute; bottom: 5px; class="col-sm-offset-20">
+    Made With ❤️ by <a href="https://github.com/p0is0nivy">p0is0nivy™</a>  
+    </div>
+{% endblock %}
