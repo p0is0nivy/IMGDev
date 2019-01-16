@@ -4,11 +4,11 @@ This Forum works but I was not able to create a comments section on posts put up
 
 To start off this Forum-
 
-1.Create  A virtual environment in the current directory (I have left the virtual environment components in this directory)
+1.Create  A virtual environment in the current directory.
 
 2.Start The virtual environment.
 
-3.Install Django 2.0 on the system.
+3.Install Django 2.0 on the system. (error might be prompted in case Django is already installed)
 
 4.Change into "src" directory.
 
@@ -17,3 +17,13 @@ To start off this Forum-
 6.Now go to the link "localhost:8000/login" .
 
 7.Proceed with using the forum! :)
+
+
+
+
+
+
+
+
+
+Made With ❤️ by p0is0nivy
